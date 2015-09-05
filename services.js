@@ -12,3 +12,6 @@ myWeatherApp.service("weatherService",["$resource", function($resource){
         return weatherAPI.get({q: city, cnt: days});
     };
 }])
+
+
+//http://api.wunderground.com/api/93f27086f0834592/conditions/q/CA/San_Francisco.json
